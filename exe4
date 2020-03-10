@@ -1,0 +1,10 @@
+#include"questao.h"
+
+void filtra(list<int> & nova, list<int> & lval, int limiar){
+
+    for (auto & x: lval) {
+        if(x>limiar){
+            nova.push_back(x);
+        }
+    }
+}
